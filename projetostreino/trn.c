@@ -15,7 +15,7 @@ int main (void){
     fflush(stdin);
 
     printf("Valores digitados: (%d) & (%d)\n\n", a, b);
-    printf("Agora faÁa uma escolha uma operaÁ„o matem·tica para fazer com estes dois valores. Utilizando estes sinais:\n Soma(+)\n SubtraÁ„o(-)\n Divis„o(/)\n MultiplcaÁ„o(*)\n \n");
+    printf("Agora fa√ßa uma escolha uma opera√ß√£o matem√°tica para fazer com estes dois valores. Utilizando estes sinais:\n Soma(+)\n Subtra√ß√£o(-)\n Divis√£o(/)\n Multiplica√ß√£o(*)\n \n");
     scanf(" %c", &c);
 
     switch (c){
@@ -33,7 +33,7 @@ int main (void){
                 printf("%d\n", a / b);
             }
             else{
-                printf("Erro: Divis„o por zero!\n");
+                printf("Erro: Divis√£o por zero!\n");
             }
             
         break;
@@ -43,7 +43,7 @@ int main (void){
         break;
 
         default:
-        printf("Sinal de operaÁ„o matem·tica inv·lido!\n");
+        printf("Sinal de opera√ß√£o matem√°tica inv√°lido!\n");
         break;
     }
 

@@ -1,10 +1,7 @@
 #include <stdio.h>
 #define texto "Entrada de dados"
 
-int main ()
-{
-
-
+int main(void){
 
   int idade = 0;
   float altura = 0.0;
