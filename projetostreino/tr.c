@@ -14,7 +14,7 @@ typedef struct tipo_pessoa tipo_pessoa;
 
 int main(void)
 {
-    setlocale(LC_ALL, "Portuguese");
+    setlocale(LC_ALL, "pt-br");
 
     tipo_pessoa lista[TAM];
     int i;
