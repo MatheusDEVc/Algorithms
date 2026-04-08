@@ -1,0 +1,28 @@
+#include <stdio.h>
+#define texto "Entrada de dados"
+
+int main ()
+{
+
+
+
+  int idade = 0;
+  float altura = 0.0;
+  char nome = "";
+
+    printf("%s\n", texto);
+
+    printf("Insira sua idade %d\n");
+    scanf("%d", idade);
+
+    printf("Insira sua altura %f\n");
+    scanf("%f", altura);
+
+    printf("Insira seu nome %c");
+    scanf("%c", nome);
+
+
+
+
+   return 0;
+}

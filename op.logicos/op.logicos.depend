@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1742750043 source:c:\users\carla\documents\programascurso\op.lógicos\op.logicos\main.c
+	<stdio.h>
+	<stdlib.h>
+
